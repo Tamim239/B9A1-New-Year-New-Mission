@@ -42,15 +42,15 @@ body {
 
 /* header style */
 header {
-    height: 600px;
+    max-height: 600px;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-size: coverage, contain;
+    background-size: cover , cover;
     border-radius: 16px;
     font-family: 'Merriweather', serif;
     color: #fff;
     text-align: center;
-    padding: 170px;
+    padding: 150px 170px;
 }
 
 .new-year {
@@ -69,8 +69,8 @@ header {
 
 .discount {
     text-align: center;
-    margin: 0 200px;
-    
+    margin: 0 100px 100px;
+
 }
 
 .discount-title {
@@ -88,11 +88,70 @@ header {
     font-weight: 500;
     margin: 40px 0 5px;
 }
-.discount-categories{
+
+.discount-categories {
     margin-bottom: 40px;
 }
+
 .discount img {
     max-height: 500px;
 }
 
 /* midnight party section */
+
+.party-container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: contain , cover;
+    display: flex;
+    color: #fff;
+}
+
+.party-colum {
+    padding: 120px 80px 60px;
+    align-items: center;
+
+}
+.party-colum2 {
+    align-items: center;
+    /* width: 319.83px;
+height: 400px; */
+
+}
+
+
+.party-title {
+    max-width: 600px;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+.party-description {
+    max-width: 600px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.party-colum > .btn {
+ background-color: transparent;
+ color: #fff;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+border: none;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.party-colum2 img {
+    width: 250px;
+    height: 450px;
+    padding-top: 100px;
+    fill-opacity: radial-gradient(50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%);
+    background-blend-mode:multiply;
+    /* mix-blend-mode: multiply; */
+   
+}
