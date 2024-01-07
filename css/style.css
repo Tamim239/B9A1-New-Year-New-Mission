@@ -43,14 +43,14 @@ body {
 /* header style */
 header {
     height: 600px;
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url('../resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: coverage, contain;
     border-radius: 16px;
     font-family: 'Merriweather', serif;
     color: #fff;
     text-align: center;
-    padding: 130px;
+    padding: 170px;
 }
 
 .new-year {
@@ -65,3 +65,34 @@ header {
 }
 
 /* main section style */
+/* discount section */
+
+.discount {
+    text-align: center;
+    margin: 0 200px;
+    
+}
+
+.discount-title {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+
+}
+
+.discount-description {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 40px 0 5px;
+}
+.discount-categories{
+    margin-bottom: 40px;
+}
+.discount img {
+    max-height: 500px;
+}
+
+/* midnight party section */
