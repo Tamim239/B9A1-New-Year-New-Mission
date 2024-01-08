@@ -194,11 +194,74 @@ header {
 
 .best-offer-description {
     max-width: 400px;
-     margin: 20px 0;
+    margin: 20px 0;
 }
 
-.best-offer-colum  .ellipse1 {
+.best-offer-colum .ellipse1 {
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 30px;
+}
+
+/* holiday sale style */
+.holiday-sale-container {
+    margin: 100px 0;
+
+
+}
+
+.holiday-subtitle {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holiday-title {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+.holiday-title>span {
+    color: #F00;
+}
+
+.holiday-description {
+    margin: 20px 100px;
+    text-align: center;
+}
+
+.images-up {
+    display: flex;
+    position: relative;
+
+
+}
+
+.images-up .girl {
+    margin-left: 700px;
+}
+
+.holiday-images-container .images-down {
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    overflow: hidden;
+
+}
+
+.images-up .Box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.images-up .discount-banner {
+    position: absolute;
+    top: 100px;
+    right: 280px;
 }
