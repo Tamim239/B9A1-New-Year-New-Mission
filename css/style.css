@@ -150,27 +150,55 @@ header {
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 100px 300px;
     margin: 100px 0;
-    
+
 }
 
-.place > h5{
+.place>h5 {
     color: #070211;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 25px;
     font-weight: 600;
 }
-.place h5 > span {
+
+.place h5>span {
     color: #F00;
 }
+
 .time-container .btn {
-padding: 15px 30px;
-justify-content: center;
-margin: 10px 200px 100px ;
-border-radius: 8px;
-color: #fff;
-background: #F00;
-border: none;
+    padding: 15px 30px;
+    justify-content: center;
+    margin: 10px 200px 100px;
+    border-radius: 8px;
+    color: #fff;
+    background: #F00;
+    border: none;
 
 }
-/* discount offer */
+
+/* best-offer style */
+.best-offer-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.best-offer-subtitle {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.best-offer-description {
+    max-width: 400px;
+     margin: 20px 0;
+}
+
+.best-offer-colum  .ellipse1 {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 30px;
+}
