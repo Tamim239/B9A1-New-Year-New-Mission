@@ -257,7 +257,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    
+
 }
 
 .images-up .discount-banner {
@@ -265,3 +265,35 @@ header {
     top: 100px;
     right: 280px;
 }
+
+/* gift-portfolio */
+
+.portfolio-subtitle {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio-description {
+    max-width: 70%;
+    margin: 25px 0;
+}
+.portfolio-images-row {
+    display: flex;
+    gap:25px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+.gift-portfolio-images img{
+    max-width: 360px;
+    max-height: 400px;
+    transition: ease 0.3s;
+    
+}
+
+.portfolio-images-row img:hover {
+     cursor: pointer;
+     border: 1px solid black;
+}
+
+/* connect us */
