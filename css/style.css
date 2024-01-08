@@ -274,26 +274,67 @@ header {
     font-size: 24px;
     font-weight: 500;
 }
+
 .portfolio-description {
     max-width: 70%;
     margin: 25px 0;
 }
+
 .portfolio-images-row {
     display: flex;
-    gap:25px;
+    gap: 25px;
     margin-bottom: 20px;
     border-radius: 16px;
 }
-.gift-portfolio-images img{
+
+.gift-portfolio-images img {
     max-width: 360px;
     max-height: 400px;
     transition: ease 0.3s;
-    
+
 }
 
 .portfolio-images-row img:hover {
-     cursor: pointer;
-     border: 1px solid black;
+    cursor: pointer;
+    border: 1px solid black;
 }
 
-/* connect us */
+/* subscribe and newsletter style*/
+.newsletter-container {
+    margin: 50px 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+
+.newsletter-title {
+    margin: 20px 0;
+}
+
+.newsletter-description {
+    margin-bottom: 20px;
+}
+
+.input-btn {
+    
+}
+
+.newsletter-container input[type="email"] {
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    padding: 15px 30px;
+    
+    
+}
+.newsletter-container .btn-email {
+    border-radius:0 50px 50px 0; 
+    color: #fff;
+    background: #F00;
+    padding: 15px 30px;
+    margin-left: -5px;
+}
+
+/* footer style */
+
